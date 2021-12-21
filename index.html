@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Foliac</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.svg">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/grid-flex.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main class="main">
+		<div class="container">
+			<h1 class="sr-only">Foliac</h1>
+			<div id="filters" class="btn-group">
+				<button type="button" class="btn" autofocus data-filter="*">Tous les projets</button>
+				<button type="button" class="btn" data-filter=".web-design">Webdesign</button>
+				<button type="button" class="btn" data-filter=".ui-ux-design">UI/UX design</button>
+				<button type="button" class="btn" data-filter=".illustration">Illustration</button>
+				<button type="button" class="btn" data-filter=".motion-design">Motion design</button>
+			</div>
+			<div class="grid grid-flex">
+				<div class="row middle">
+					<div class="col-5">
+						<div class="row">
+							<div class ="grid__item">
+								<img class="img-responsive" src="image/multiple.png" alt="multiple">
+							</div>		
+						</div>
+						<div class="row">
+							<div class ="grid__item web-design">
+								<img class="img-responsive" src="image/app.png" alt="app">
+							</div>		
+						</div>
+					</div>
+
+					<div class="col-7">
+						<div class="row">
+							<div class ="grid__item web-design">
+								<img class="img-responsive" src="image/identité-visuelle.png" alt="identite-visuelle">
+							</div>		
+						</div>
+						<div class="row">
+							<div class ="grid__item web-design">
+								<img class="img-responsive" src="image/prototype.png" alt="prototype">
+							</div>		
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</main>	
+	
+	<script src="js/jquery-3.6.0.js"></script>
+	<!-- <script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script> -->
+		<script src="js/main.js"></script>		
+	</body>
+	</html>
+
